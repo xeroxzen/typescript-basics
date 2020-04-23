@@ -92,11 +92,9 @@ var p = {
 fullName(p);
 // Class Modifiers
 var Employee = /** @class */ (function () {
-    function Employee() {
-    }
-    Employee.prototype.construst = function (name) {
+    function Employee(name) {
         this.employeeName = name;
-    };
+    }
     Employee.prototype.greet = function () {
         console.log("Good morning " + this.employeeName);
     };

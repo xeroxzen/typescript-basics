@@ -120,7 +120,7 @@ fullName(p)
 class Employee{
     employeeName: string;
 
-    construst(name: string){
+    constructor(name: string){
         this.employeeName = name;
     }
 
