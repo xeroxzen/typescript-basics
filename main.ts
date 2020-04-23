@@ -133,3 +133,23 @@ let emp1 = new Employee('Andile');
 console.log(emp1.employeeName);
 emp1.greet();
 
+class Manager extends Employee{
+
+    constructor(managerName: string){
+        super(managerName);
+    }
+
+    delegateWork(){
+        console.log('Manager delegating tasks')
+    }
+}
+
+let m1 = new Manager('Google Jr');
+m1.delegateWork();
+m1.greet();
+console.log(m1.employeeName);
+
+// Access Modifiers
+// By default each class member is public
+
+// Can be achieved by restricting access to class members by using modifiers such as 'private' and 'public'
