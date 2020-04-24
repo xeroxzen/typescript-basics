@@ -1,3 +1,6 @@
+// Let's learn some typescript
+// Author: Andile Jaden
+
 export {}
 let message = "Welcome Back"
 console.log(message);

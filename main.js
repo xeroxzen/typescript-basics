@@ -1,4 +1,6 @@
 "use strict";
+// Let's learn some typescript
+// Author: Andile Jaden
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
